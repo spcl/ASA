@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label -fopenmp  -Wl,--disable-new-dtags  -shared -Wl,-soname,libseq_4_4.so -o libseq_4_4.so CMakeFiles/seq_4_4.dir/home/tdematt/work/canonical_libnodes/.dacecache/seq_4_4/src/cpu/seq_4_4.cpp.o  /usr/lib/gcc/x86_64-redhat-linux/11/libgomp.so /usr/lib64/libpthread.a 

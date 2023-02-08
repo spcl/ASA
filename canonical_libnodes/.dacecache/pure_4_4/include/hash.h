@@ -1,1 +1,0 @@
-#define __HASH_pure_4_4 "f4e6f1304469cf84cc66055007ec75b09fefa10bf94da515b0d84737f7f99df3"

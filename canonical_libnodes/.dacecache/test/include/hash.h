@@ -1,1 +1,0 @@
-#define __HASH_test "36c8ffbf6da0f67424ea4f0bea13878eda744ea98a48a0bc5ccdf0276a5e894e"

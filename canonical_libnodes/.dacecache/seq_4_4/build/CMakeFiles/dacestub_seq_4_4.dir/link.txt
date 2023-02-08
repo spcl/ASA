@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label -fopenmp  -Wl,--disable-new-dtags  -shared -Wl,-soname,libdacestub_seq_4_4.so -o libdacestub_seq_4_4.so CMakeFiles/dacestub_seq_4_4.dir/tools/dacestub.cpp.o  /usr/lib/gcc/x86_64-redhat-linux/11/libgomp.so /usr/lib64/libpthread.a 

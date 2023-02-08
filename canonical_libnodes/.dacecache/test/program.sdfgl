@@ -1,2 +1,0 @@
-name,SDFG_intermediate,SDFG,source,argv_0
-test,/home/tdematt/src/dse_with_dace/canonical_libnodes/.dacecache/test/program.sdfg,/home/tdematt/src/dse_with_dace/canonical_libnodes/_dacegraphs/program.sdfg,/home/tdematt/src/dse_with_dace/canonical_libnodes/inline_bug_sample_2.py,inline_bug_sample_2.py
