@@ -18,6 +18,21 @@ For the development guide please refer to the wiki.
 
 ## Requirements
 
+```
+git clone --recursive 
+```
+
+```
+pip install --editable dace/
+pip install --editable daceml/
+```
+
+```
+export PYTHONPATH=$(pwd):$(pwd)/streamingsched
+```
+
+_Note_: as this is currently development, an automated environment setup will be provided later.
+
 
 
 ## Usage

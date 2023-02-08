@@ -1,0 +1,9 @@
+[submodule "dace"]
+	path = dace
+	url = https://github.com/spcl/dace
+[submodule "daceml"]
+	path = daceml
+	url = https://github.com/spcl/daceml
+[submodule "streamingsched"]
+	path = streamingsched
+	url = https://github.com/spcl/streamingsched

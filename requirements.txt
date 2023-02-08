@@ -1,0 +1,9 @@
+networkx==2.5
+numpy
+simpy
+pyvis
+matplotlib
+sympy
+pytest
+seaborn
+bidict
