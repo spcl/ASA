@@ -32,10 +32,10 @@ jobs:
         python -m pip install flake8 pytest pytest-xdist
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         python -m pip install --editable dace/
-        export PYTHONPATH=$(pwd):$(pwd)/streamingsched
     - name: Tests No DaCeML
       run: |
         export DACE_cache=unique
+        export PYTHONPATH=$(pwd):$(pwd)/streamingsched
         pytest -n auto tests/nodes/blas
         pytest -m "not daceml" tests/unit_tests
 
