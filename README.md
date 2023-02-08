@@ -1,3 +1,5 @@
+[![CI Tests](https://github.com/spcl/ASA/actions/workflows/python-package.yml/badge.svg)](https://github.com/spcl/ASA/actions/workflows/python-package.yml)
+
 This repository contains a framework for building Application Specific Architecture.
 
 Starting from a user-provided application, the framework will analyze it, and perform
@@ -29,10 +31,10 @@ git clone --recursive https://github.com/spcl/ASA.git
 Then we need to install the requirements, DaCe, and properly set the Python PATH:
 
 ```
-cd ASA/
-pip install -r requirements.txt
-pip install --editable dace/
-export PYTHONPATH=$(pwd):$(pwd)/streamingsched
+$ cd ASA/
+$ pip install -r requirements.txt
+$ pip install --editable dace/
+$ export PYTHONPATH=$(pwd):$(pwd)/streamingsched
 ```
 
 ### When used with ML based samples
@@ -41,12 +43,19 @@ DaCeML currently only support Python3.8.
 When using with ML based samples, DaCeML requires a specific version of DaCe:
 
 ```
-pip install --editable daceml/
-cd dace/
-git checkout v0133_and_inline_pass 
-cd -
+$ pip install --editable daceml/
+$ cd dace/
+$ git checkout v0133_and_inline_pass 
+$ cd -
 
 ```
+
+When dealing with larger ML samples, or, more in general, large programs, it has sense to increase the number
+of files that can be opened in the given system (e.g., to 100K):
+```
+$ ulimit -n 100000
+```
+
 
 *Important*: with the other samples, use the latest DaCe master or the specific commit of this repository submodules.
 
@@ -126,5 +135,8 @@ The samples provided with this repository and (many of) DaCeML-generated SDFGs r
 Please refer to the development wiki for additional details. 
 ## Samples and tests
 
-This repository provides samples (under the `sample/` folder) to illustrate the framework API,  and unit tests (under the `tests/` folder) to test basic functionalities.
+This repository provides samples (under the `sample/` folder) to illustrate the framework API.
+For each sample, its documentation describes goals and various aspects of the ASA framework.
+
+Unit tests are contained under the `tests/` folder to test basic functionalities.
 
