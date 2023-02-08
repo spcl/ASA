@@ -17,19 +17,37 @@ For the development guide please refer to the wiki.
 
 
 ## Requirements
+The framework has been tested with Python 3.8.
+
+When cloning this repository, be sure to initialize all the submodules
 
 ```
-git clone --recursive 
+git clone --recursive https://github.com/spcl/ASA.git
 ```
 
+
+Then we need to install the requirements, DaCe, and properly set the Python PATH:
+
 ```
+pip install -r requirements.txt
 pip install --editable dace/
-pip install --editable daceml/
-```
-
-```
 export PYTHONPATH=$(pwd):$(pwd)/streamingsched
 ```
+
+### When using with ML based samples
+
+DaCeML currently only support Python3.8.
+When using with ML based samples, DaCeML requires a specific version of DaCe:
+
+```
+pip install --editable daceml/
+cd dace/
+git checkout v0133_and_inline_pass 
+cd -
+
+```
+
+*Important*: with the other samples, use the latest DaCe master or the specific commit of this repository submodules.
 
 _Note_: as this is currently development, an automated environment setup will be provided later.
 
