@@ -131,6 +131,7 @@ def test_special_in_volume_nodes():
     pass
 
 
+@pytest.mark.daceml
 def test_daceml():
     """
         Test with a DaCeML small model (conv+relu+maxpool)
