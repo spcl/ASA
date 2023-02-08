@@ -15,7 +15,7 @@ This project depends on DaCe (for frontend and data analysis) and Streaming-Sche
 
 _Note_: this is a work-in-progress project.
 
-For the development guide please refer to the wiki.
+For the development guide please refer to the [wiki](https://github.com/spcl/ASA/wiki).
 
 
 ## Requirements
