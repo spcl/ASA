@@ -1,0 +1,170 @@
+{
+    "/home/tdematt/src/dse_with_dace/canonical_libnodes/inline_bug_sample_2.py": {
+        "52": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 0
+            }
+        ],
+        "53": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 1
+            }
+        ],
+        "54": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 2
+            }
+        ],
+        "55": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 3
+            }
+        ],
+        "69": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 4
+            }
+        ],
+        "70": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 5
+            }
+        ],
+        "71": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 6
+            }
+        ],
+        "74": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 7
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 8
+            }
+        ],
+        "79": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 9
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 10
+            }
+        ],
+        "83": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 11
+            }
+        ],
+        "22": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 12
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 13
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 16
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 17
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 20
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 21
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 24
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 25
+            }
+        ],
+        "24": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 14
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 18
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 22
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 26
+            }
+        ],
+        "29": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 15
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 19
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 23
+            },
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 27
+            }
+        ]
+    }
+}

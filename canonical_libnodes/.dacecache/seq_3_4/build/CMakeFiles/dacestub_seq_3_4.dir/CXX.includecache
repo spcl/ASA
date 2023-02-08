@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tdematt/work/dace/dace/codegen/tools/dacestub.cpp
+windows.h
+-
+dlfcn.h
+-
+omp.h
+-
+

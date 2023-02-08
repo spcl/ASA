@@ -1,0 +1,85 @@
+{
+    "/home/tdematt/work/canonical_libnodes/mmm.py": {
+        "280": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 0
+            }
+        ],
+        "281": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 1
+            }
+        ],
+        "282": [
+            {
+                "sdfg_id": 0,
+                "state_id": 0,
+                "node_id": 2
+            }
+        ],
+        "82": [
+            {
+                "sdfg_id": 1,
+                "state_id": 0,
+                "node_id": 0
+            },
+            {
+                "sdfg_id": 1,
+                "state_id": 0,
+                "node_id": 1
+            },
+            {
+                "sdfg_id": 1,
+                "state_id": 0,
+                "node_id": 2
+            }
+        ],
+        "89": [
+            {
+                "sdfg_id": 1,
+                "state_id": 1,
+                "node_id": 0
+            },
+            {
+                "sdfg_id": 1,
+                "state_id": 1,
+                "node_id": 1
+            },
+            {
+                "sdfg_id": 1,
+                "state_id": 1,
+                "node_id": 2
+            }
+        ]
+    },
+    "/home/tdematt/work/dace/dace/sdfg/state.py": {
+        "1273": [
+            {
+                "sdfg_id": 1,
+                "state_id": 0,
+                "node_id": 3
+            },
+            {
+                "sdfg_id": 1,
+                "state_id": 1,
+                "node_id": 5
+            }
+        ],
+        "1268": [
+            {
+                "sdfg_id": 1,
+                "state_id": 1,
+                "node_id": 3
+            },
+            {
+                "sdfg_id": 1,
+                "state_id": 1,
+                "node_id": 4
+            }
+        ]
+    }
+}

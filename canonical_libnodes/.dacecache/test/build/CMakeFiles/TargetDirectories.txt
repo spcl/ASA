@@ -1,0 +1,4 @@
+/home/tdematt/src/dse_with_dace/canonical_libnodes/.dacecache/test/build/CMakeFiles/rebuild_cache.dir
+/home/tdematt/src/dse_with_dace/canonical_libnodes/.dacecache/test/build/CMakeFiles/edit_cache.dir
+/home/tdematt/src/dse_with_dace/canonical_libnodes/.dacecache/test/build/CMakeFiles/dacestub_test.dir
+/home/tdematt/src/dse_with_dace/canonical_libnodes/.dacecache/test/build/CMakeFiles/test.dir

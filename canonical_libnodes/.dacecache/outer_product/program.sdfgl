@@ -1,0 +1,2 @@
+name,SDFG_intermediate,SDFG,source,argv_0
+outer_product,/home/tdematt/src/dse_with_dace/canonical_libnodes/.dacecache/outer_product/program.sdfg,/home/tdematt/src/dse_with_dace/canonical_libnodes/_dacegraphs/program.sdfg,/home/tdematt/src/dse_with_dace/canonical_libnodes/op.py,op.py

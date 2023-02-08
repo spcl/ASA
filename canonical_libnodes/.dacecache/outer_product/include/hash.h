@@ -1,0 +1,1 @@
+#define __HASH_outer_product "0be793e9a258f71930f2f466b68e6a13426c335daea5e80781be8708ab0a08c1"
