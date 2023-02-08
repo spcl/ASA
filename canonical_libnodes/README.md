@@ -13,3 +13,13 @@ This folder contains a collection of expansions for DaCe library nodes whose exp
 For this reason we refer at them as "canonical expansions".
 
 For additional details on this process, please refer to the development wiki.
+
+
+### Content of this folder
+
+The expansions are organized in different subfolders:
+
+- `blas/`: expansions for BLAS numerical routines (e.g., matrix-vector and matrix-matrix multiplications)
+- `others`: other numerical routines (e.g., cholesky factorization, and matrix inversion)
+- `ml/`: expansions for Machine Learning operator (to be used with DaCeML generated programs)
+- `misc/`: utility expansions/library nodes that are used by other expansions (e.g., nodes for broadcasting/gathering data)
