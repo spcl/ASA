@@ -29,12 +29,13 @@ git clone --recursive https://github.com/spcl/ASA.git
 Then we need to install the requirements, DaCe, and properly set the Python PATH:
 
 ```
+cd ASA/
 pip install -r requirements.txt
 pip install --editable dace/
 export PYTHONPATH=$(pwd):$(pwd)/streamingsched
 ```
 
-### When using with ML based samples
+### When used with ML based samples
 
 DaCeML currently only support Python3.8.
 When using with ML based samples, DaCeML requires a specific version of DaCe:

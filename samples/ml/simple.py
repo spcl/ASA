@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     ptmodel = Model()
 
-    #create data
+    # create data
     x = torch.rand(data_shape)
 
     # Create SDFG
